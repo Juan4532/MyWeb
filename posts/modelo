@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera vez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main>
+    <header>
+	<nav>
+            <a href="../index.html">[jrey.ink]</a>
+            <a href="../fotos.html">[fotiños]</a>
+            <a href="../libros.html">[libros]</a>
+            <a href="../posts.html">[posts]</a>
+            <a href="../lists.html">[listas]</a>
+        </nav>
+
+    </header>
+    <div class="divider"></div>
+    <article>
+        <h1>Titulo</h1>
+        <p class="subtitle">Subtitulo</p>
+       
+     </article>
+    </main>
+</body>
+</html>
+
