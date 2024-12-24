@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Los Hermanos Karamázov",
+        "author": "Fiódor M. Dostoievski",
+        "image": "imagenes/portadas/karamazov.jpg",
+        "dateRead": "2020-01-15",
+        "description": "Una novela épica sobre la familia y la fe."
+    },
+    {
+        "title": "Los aerostatos",
+        "author": "Amélie Nothomb",
+        "image": "imagenes/portadas/aerostatos.jpg",
+        "dateRead": "2023-10-05",
+        "description": "18 lereles esto, robo a mano armada"
+    },
+    {
+        "title": "El extranjero",
+        "author": "Jean-Paul Sartre",
+        "image": "imagenes/portadas/extranjero.jpg",
+        "dateRead": "2022-09-01",
+        "description": "Una obra existencialista sobre la libertad y el ser."
+    },
+    {
+        "title": "El señor de los anillos",
+        "author": "J. R. R. Tolkien",
+        "image": "imagenes/portadas/anillos.jpg",
+        "dateRead": "2021-01-22",
+        "description": "Un relato fascinante sobre un genio del ajedrez."
+    }
+]
+

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Books - Carmen Gutierrez</title>
+    <title>Libros - Juan Rey</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,28 +19,24 @@
     </header>
 
         <section>
-            <h1>Bookshelf</h1>
-            <div class="book-grid">
-                <div class="book-item">
-                    <img src="images/karamazov.jpg" alt="Los hermanos karamazov by Fiodor M. Dostoievski">
-                    <p>Los Hermanos Karamázov - Fiódor M. Dostoievski</p>
-                </div>
-                <div class="book-item">
-                    <img src="book2.jpg" alt="Giovanni's Room by James Baldwin">
-                    <p>Giovanni's Room - James Baldwin</p>
-                </div>
-                <div class="book-item">
-                    <img src="book3.jpg" alt="Nausea by Jean-Paul Sartre">
-                    <p>Nausea - Jean-Paul Sartre</p>
-                </div>
-                <div class="book-item">
-                    <img src="book4.jpg" alt="Защита Лужина by Nabokov">
-                    <p>Защита Лужина - Vladimir Nabokov</p>
-                </div>
-            </div>
+		<h1>Estantería</h1>
+        <p class="subtitle">Mirad cuanto leo, que listo soy.</p>
+      <div id="bookGrid" class="book-grid"></div>
         </section>
 
+        <!-- Modal de detalles del libro -->
+        <div id="overlay"></div>
+        <section id="bookDetails" class="hidden">
+            <h2 id="detailsTitle"></h2>
+            <img id="detailsImage" src="" alt="Book Cover">
+            <p id="detailsAuthor"></p>
+            <p id="detailsDate"></p>
+            <p id="detailsDescription"></p>
+        </section>
+	<div id="overlay"></div>
     </main>
+    <script src="app.js"></script>
+
 </body>
 </html>
 
